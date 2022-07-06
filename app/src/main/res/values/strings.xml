@@ -71,6 +71,7 @@
     <string name="ticket_status">Ticket Status</string>
     <string name="nac_ho_date">NAC H/o Date</string>
     <string name="pet_reg">PET REGISTRATION</string>
+    <string name="pet_ver">OTP Verification </string>
     <string name="mob_app">MOBILE APP</string>
     <string name="login_signup">Login / Signup</string>
 

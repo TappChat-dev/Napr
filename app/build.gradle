@@ -74,5 +74,4 @@ dependencies {
     androidTestImplementation("androidx.navigation:navigation-testing:$nav_version")
 
     implementation("androidx.datastore:datastore-preferences:1.0.0")
-    implementation 'com.github.mukeshsolanki:android-otpview-pinview:3.0.0'
 }

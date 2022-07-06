@@ -20,7 +20,8 @@
             android:layout_height="100.0dip"
             android:layout_gravity="center"
             android:background="@drawable/noida_logo_white"
-            android:padding="1.0dip" />
+            android:padding="1.0dip"
+            android:visibility="gone" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -28,21 +29,20 @@
             android:layout_marginTop="10.0dip"
             android:fontFamily="@font/raleway_bold"
             android:gravity="center"
-            android:text="@string/pet_reg"
+            android:text="OTP Verification "
             android:textColor="@color/white"
             android:textSize="26sp"
             android:textStyle="bold" />
 
         <TextView
-
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32.0dip"
             android:fontFamily="@font/raleway_bold"
             android:gravity="center"
-            android:text="@string/mob_app"
+            android:text="Please Type verification code send to 8920****** "
             android:textColor="@color/white"
-            android:textSize="26sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -62,8 +62,8 @@
                 android:drawablePadding="@dimen/margin_8dp"
                 android:fontFamily="@font/roboto_black"
                 android:hint="@string/cb_otp"
-                android:inputType="textCapWords"
-                android:maxLength="100"
+                android:inputType="number"
+                android:maxLength="4"
                 android:padding="6.0dip"
                 android:paddingStart="@dimen/margin_8dp"
                 android:textColor="@color/black"
