@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: jp.co.cyberagent.android:gpuimage:2.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/be17c7a8dd6718fbd9c17ba932d4437a/transformed/gpuimage-2.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/be17c7a8dd6718fbd9c17ba932d4437a/transformed/gpuimage-2.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/be17c7a8dd6718fbd9c17ba932d4437a/transformed/gpuimage-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8de7940cdb0b4baffe2181c5241be994/transformed/gpuimage-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8de7940cdb0b4baffe2181c5241be994/transformed/gpuimage-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8de7940cdb0b4baffe2181c5241be994/transformed/gpuimage-2.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.co.cyberagent.android/gpuimage/2.1.0/115c726a42c0f0ac16e59e469ca50323bcfa5aa5/gpuimage-2.1.0-javadoc.jar!/" />

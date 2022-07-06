@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:iconics-typeface-api:5.2.8@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1109f1d19e6fdd4f1cee6b9486a43f2/transformed/iconics-typeface-api-5.2.8/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b1109f1d19e6fdd4f1cee6b9486a43f2/transformed/iconics-typeface-api-5.2.8/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b1109f1d19e6fdd4f1cee6b9486a43f2/transformed/iconics-typeface-api-5.2.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/723ee4a5489aaa32699eb7604ba699b5/transformed/iconics-typeface-api-5.2.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/723ee4a5489aaa32699eb7604ba699b5/transformed/iconics-typeface-api-5.2.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/723ee4a5489aaa32699eb7604ba699b5/transformed/iconics-typeface-api-5.2.8/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/iconics-typeface-api/5.2.8/cf7d44f2831ce26034dcce34abd42f234e988643/iconics-typeface-api-5.2.8-javadoc.jar!/" />

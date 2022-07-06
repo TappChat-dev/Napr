@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:iconics-core:5.2.8@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd63387b9d50c906f45166801c790452/transformed/iconics-core-5.2.8/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bd63387b9d50c906f45166801c790452/transformed/iconics-core-5.2.8/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd63387b9d50c906f45166801c790452/transformed/iconics-core-5.2.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3bd43410754795f4b782f24f9ef9f97d/transformed/iconics-core-5.2.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3bd43410754795f4b782f24f9ef9f97d/transformed/iconics-core-5.2.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3bd43410754795f4b782f24f9ef9f97d/transformed/iconics-core-5.2.8/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/iconics-core/5.2.8/e0403838d7b6c305566709de8143038421ff45b1/iconics-core-5.2.8-javadoc.jar!/" />

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:materialdrawer:8.4.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d02b75071d11b55d4b0d6be7067d5055/transformed/materialdrawer-8.4.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d02b75071d11b55d4b0d6be7067d5055/transformed/materialdrawer-8.4.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d02b75071d11b55d4b0d6be7067d5055/transformed/materialdrawer-8.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0317b93a7084587fbb3e1c5d030de07/transformed/materialdrawer-8.4.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d0317b93a7084587fbb3e1c5d030de07/transformed/materialdrawer-8.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0317b93a7084587fbb3e1c5d030de07/transformed/materialdrawer-8.4.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/materialdrawer/8.4.2/831c80ac4770b009e67f9e0f820cd361cd3293b0/materialdrawer-8.4.2-javadoc.jar!/" />
