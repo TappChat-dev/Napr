@@ -1,0 +1,478 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Widget.Theme.MyApplication.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.MyApplication.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="StarLoadingDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/mtrl_btn_transparent_bg_color</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+
+    <style name="TextView.Base" parent="@android:style/Widget.TextView" />
+    <style name="TextView.Base.Bold.Font.TextPink.Large" parent="@style/TextView.Base">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+    <style name="TextView.Base.TextPink.Large" parent="@style/TextView.Base">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextView.Base.TextWhite.Large" parent="@style/TextView.Base">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.Base.TextWhite.xSmall" parent="@style/TextView.Base">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.Bases" parent="@android:style/Widget.TextView" />
+    <style name="TextView.BorderBlue.Bold.XSmall.Regular.Button" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/drawable_button_border</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="TextView.Form.HintWhite" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.OpenSansRegular" parent="@style/TextView.Base">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+    <style name="TextView.RobotoBold" parent="@style/TextView.Base">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+    <style name="TextView.RobotoMedium" parent="@style/TextView.Base">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="TextView.RobotoRegular" parent="@style/TextView.Base">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="TextView.SubTitleGrey" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/subtitle_grey</item>
+    </style>
+    <style name="TextView.SubTitleGrey.Bold.Medium" parent="@style/TextView.SubTitleGrey">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.SubTitleGrey.Bold.Small" parent="@style/TextView.SubTitleGrey">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.SubTitleGrey.Bold.XSmall" parent="@style/TextView.SubTitleGrey">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.SubTitleGrey.Medium" parent="@style/TextView.SubTitleGrey">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.SubTitleGrey.Small" parent="@style/TextView.SubTitleGrey">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.SubTitleGrey.XSmall" parent="@style/TextView.SubTitleGrey">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.SubTitleThemeBlack" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/black_46464e</item>
+    </style>
+    <style name="TextView.SubTitleThemeBlack.Small" parent="@style/TextView.SubTitleThemeBlack">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.ExtraLarge.RobotoBold" parent="@style/TextView.TextBlack.RobotoBold">
+        <item name="android:textSize">@dimen/xxxlarge_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.Large.RobotoBold" parent="@style/TextView.TextBlack.RobotoBold">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.Large.RobotoMedium" parent="@style/TextView.TextBlack.RobotoMedium">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.Medium.RobotoBold" parent="@style/TextView.TextBlack.RobotoBold">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.Medium.RobotoMedium" parent="@style/TextView.TextBlack.RobotoMedium">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.Medium.RobotoRegular" parent="@style/TextView.TextBlack.RobotoRegular">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.OpenSansRegular" parent="@style/TextView.OpenSansRegular">
+        <item name="android:textColor">@color/title_black</item>
+    </style>
+    <style name="TextView.TextBlack.RobotoBold" parent="@style/TextView.RobotoBold">
+        <item name="android:textColor">@color/title_black</item>
+    </style>
+    <style name="TextView.TextBlack.RobotoMedium" parent="@style/TextView.RobotoMedium">
+        <item name="android:textColor">@color/title_black</item>
+    </style>
+    <style name="TextView.TextBlack.RobotoRegular" parent="@style/TextView.RobotoRegular">
+        <item name="android:textColor">@color/title_black</item>
+    </style>
+    <style name="TextView.TextBlack.Small.RobotoMedium" parent="@style/TextView.TextBlack.RobotoMedium">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.Small.RobotoRegular" parent="@style/TextView.TextBlack.RobotoRegular">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.VSmall.RobotoMedium" parent="@style/TextView.TextBlack.RobotoMedium">
+        <item name="android:textSize">@dimen/vsmall_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.VSmall.RobotoRegular" parent="@style/TextView.TextBlack.RobotoRegular">
+        <item name="android:textSize">@dimen/vsmall_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.XMedium.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+        <item name="android:textColor">@color/title_black</item>
+    </style>
+    <style name="TextView.TextBlack.XMedium.RobotoBold" parent="@style/TextView.TextBlack.RobotoBold">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.XMedium.RobotoRegular" parent="@style/TextView.TextBlack.RobotoRegular">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.XSmall.OpenSansRegular" parent="@style/TextView.TextBlack.OpenSansRegular">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+    <style name="TextView.TextBlack.XSmall.RobotoBold" parent="@style/TextView.TextBlack.RobotoBold">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.XSmall.RobotoMedium" parent="@style/TextView.TextBlack.RobotoMedium">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TextBlack.XSmall.RobotoRegular" parent="@style/TextView.TextBlack.RobotoRegular">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TextGrey.XMedium.Regular" parent="@style/TextView.TitleGrey">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+        <item name="android:textColor">@color/title_blue</item>
+    </style>
+    <style name="TextView.TextPink" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextView.TextPink.ExtraLarge.RobotoBold" parent="@style/TextView.TextPink.RobotoBold">
+        <item name="android:textSize">@dimen/xxxlarge_text_size</item>
+    </style>
+    <style name="TextView.TextPink.Large.Regular" parent="@style/TextView.Base">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextView.TextPink.Large.RobotoBold" parent="@style/TextView.TextPink.RobotoBold">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+    <style name="TextView.TextPink.Large.RobotoRegular" parent="@style/TextView.TextPink.RobotoRegular">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextPink.Medium.RobotoBold" parent="@style/TextView.TextPink.RobotoBold">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextPink.Medium.RobotoMedium" parent="@style/TextView.TextPink.RobotoMedium">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextPink.RobotoBold" parent="@style/TextView.RobotoBold">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextView.TextPink.RobotoMedium" parent="@style/TextView.RobotoBold">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextView.TextPink.RobotoRegular" parent="@style/TextView.RobotoRegular">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="TextView.TextPink.XMedium.RobotoBold" parent="@style/TextView.TextPink.RobotoBold">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.ExtraLarge.RobotoBold" parent="@style/TextView.TextWhite.RobotoBold">
+        <item name="android:textSize">@dimen/xxlarge_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.Medium.RobotoBold" parent="@style/TextView.TextWhite.RobotoBold">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.Medium.RobotoMedium" parent="@style/TextView.TextWhite.RobotoMedium">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.Medium.RobotoRegular" parent="@style/TextView.TextWhite.RobotoRegular">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.RobotoBold" parent="@style/TextView.RobotoBold">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.TextWhite.RobotoMedium" parent="@style/TextView.RobotoMedium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.TextWhite.RobotoRegular" parent="@style/TextView.RobotoRegular">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.TextWhite.Small.RobotoRegular" parent="@style/TextView.TextWhite.RobotoRegular">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.VSmall.RobotoRegular" parent="@style/TextView.TextWhite.RobotoRegular">
+        <item name="android:textSize">@dimen/vsmall_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.XMedium.RobotoBold" parent="@style/TextView.TextWhite.RobotoBold">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.XMedium.RobotoRegular" parent="@style/TextView.TextWhite.RobotoRegular">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+    </style>
+    <style name="TextView.TextWhite.XSmall.RobotoRegular" parent="@style/TextView.TextWhite.RobotoRegular">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/title_black</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.Font.ExtraLarge.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xxxlarge_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.Font.XSmall.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.Large.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.Medium.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.Small.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.XMedium.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.XSmall.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlack.Bold.XXLarge.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xxlarge_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlack.ExtraLarge.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xxxlarge_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack.Large.Light" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextView.TitleBlack.Large.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack.Medium.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack.RobotoBlack" parent="@style/TextView.TitleBlack">
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+    <style name="TextView.TitleBlack.Small.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack.XMedium.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack.XSmall.Regular" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TitleBlack.XXLarge.Light" parent="@style/TextView.TitleBlack">
+        <item name="android:textSize">@dimen/xxlarge_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextView.TitleBlack_op60" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/title_black_op60</item>
+    </style>
+    <style name="TextView.TitleBlack_op60.XSmall.OpenSansRegular" parent="@style/TextView.TitleBlack_op60">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+    <style name="TextView.TitleBlue" parent="@style/TextView.Base">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textColor">@color/grad_blue_light_start</item>
+    </style>
+    <style name="TextView.TitleBlue.Bold.Large.Regular" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlue.Bold.Small.Regular" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlue.Bold.XMedium.Regular" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/xmedium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlue.Bold.XSmall.Regular" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleBlue.Medium.Regular" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+    <style name="TextView.TitleBlue.XSmall.Regular" parent="@style/TextView.TitleBlue">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TitleDarkBlue" parent="@style/TextView.Bases">
+        <item name="android:textColor">@color/colorThemeDarkBlue</item>
+        <item name="android:fontFamily">@font/raleway_medium</item>
+    </style>
+    <style name="TextView.TitleGrey" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/title_blue</item>
+    </style>
+    <style name="TextView.TitleLightBlue" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/title_blue</item>
+    </style>
+    <style name="TextView.TitlePrimary" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="TextView.TitlePrimary.Bold.Font.ExtraLarge.Regular" parent="@style/TextView.TitlePrimary">
+        <item name="android:textSize">@dimen/xxxlarge_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+    <style name="TextView.TitlePurple" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/btn_color</item>
+    </style>
+    <style name="TextView.TitlePurple.XSmall.Regular" parent="@style/TextView.TitlePurple">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleRed" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="TextView.TitleRed.Bold.Small.Regular" parent="@style/TextView.TitleRed">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="TextView.TitleWhite" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.Font.ExtraLarge.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/xxxlarge_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.Large.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.Large.Regular.Options" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12.0dip</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.Medium.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.Small.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.XSmall.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Bold.XXLarge.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/xxlarge_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Large.Light" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextView.TitleWhite.Large.RalewayBold" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+    <style name="TextView.TitleWhite.Small.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="TextView.TitleWhite.XSmall.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+    </style>
+    <style name="TextView.TitleWhite.XXLarge.Regular" parent="@style/TextView.TitleWhite">
+        <item name="android:textSize">@dimen/xxlarge_text_size</item>
+    </style>
+    <style name="TextView.TitleXSmallPurple" parent="@style/TextView.Base">
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="Button.Base" parent="@style/Widget.AppCompat.Button" />
+    <style name="Button.BgGreen.TextWhite.Bold.xSmall.Regular" parent="@style/Button.Base">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/drawable_rectangle_circular_corner</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Button.BgRed.TextWhite.Small.Regular.CircularCornerRed" parent="@style/Button.Base">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/curved_rectangle_red</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+    <style name="Button.BgWhite.TextPrimary.Medium.Bold.CircularCornerRed" parent="@style/Button.Base">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@drawable/curved_rectangle_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+    <style name="Button.BgWhite.TextPrimary.Small.Regular.CircularCornerRed" parent="@style/Button.Base">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@drawable/curved_rectangle_white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+
+    <style name="EditText.Base" parent="@style/Widget.AppCompat.EditText" />
+    <style name="EditText.StyleOf.BrideGroomDetilsET" parent="@style/EditText.Base">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textColor">@color/title_black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="EditText.StyleOf.LoginScreenET" parent="@style/EditText.Base">
+        <item name="android:textSize">@dimen/xsmall_text_size</item>
+        <item name="android:textColor">@color/title_black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+</resources>

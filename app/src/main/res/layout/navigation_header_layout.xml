@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="bold"
+    tools:background="@drawable/navigation_header_bg"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/material_drawer_account_header_user_name"
+        app:layout_constraintStart_toStartOf="@+id/material_drawer_account_header_user_name"
+        tools:src="@mipmap/ic_launcher_adaptive_fore" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/material_drawer_account_header_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        style="bold"
+        app:layout_constraintBottom_toTopOf="@+id/material_drawer_account_header_id"
+        app:layout_constraintStart_toStartOf="@+id/material_drawer_account_header_id"
+        tools:text="UserNameUserNameUserNameUserNameUserNameUserNameUserNameUserName" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/material_drawer_account_header_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="#ID" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

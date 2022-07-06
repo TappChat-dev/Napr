@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_login.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_login_screen.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_mainscreen.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_splash.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_verify_otp.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/activity_verify_otpactivity.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/ANDROID/Desktop/IntekProject/NAPR/app/src/main/res/layout/custom_tost.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/drawable/curved_rectangle_red.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/drawable/drawable_button_border.xml" value="0.1455" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/drawable/drawable_rectangle_circular_corner.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/drawable/ic_progress_animated.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/activity_login_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/activity_mainscreen.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/activity_splash.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/activity_splashscreen.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/app_bar.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/blank_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/contracts_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/drop_down_item.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/equipments_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/fragment_certificate_renewal.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Downloads/NAPR/app/src/main/res/layout/fragment_complaint_history.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/activity_login_screen.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/activity_mainscreen.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/activity_verify_otp.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/app_bar.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/contracts_list_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/drop_down_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/equipments_list_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_certificate_renewal.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_complaint_history.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/fragment_contract_viewer.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/fragment_equipment_viewer.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/fragment_initiate_penalty.xml" value="0.15416666666666667" />
+        <entry key="app/src/main/res/layout/fragment_new_registration.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_privacy_policy.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_raise_complaint.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_registered_pets.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_registration_status.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_vendor_viewer.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/navigation_header_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/penalty_fragment.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/star_loading_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/tickets_list_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/vendors_list_item.xml" value="0.12107396149949341" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

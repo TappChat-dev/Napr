@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_eeeeee"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_24dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_cert_no"
+                style="@style/EditText.StyleOf.LoginScreenET"
+                android:layout_width="350.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/curved_rectangle_white"
+                android:hint="@string/search_cert"
+                android:maxLength="10"
+                android:padding="@dimen/margin_16dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_12dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_12dp"
+                android:weightSum="2.0">
+
+                <Button
+                    android:id="@+id/btn_cert_verify"
+                    style="@style/Button.BgRed.TextWhite.Small.Regular.CircularCornerRed"
+                    android:layout_width="0.0px"
+                    android:layout_height="50.0dip"
+                    android:layout_marginRight="@dimen/margin_8dp"
+                    android:layout_weight="1.0"
+                    android:text="@string/verify" />
+
+                <Button
+                    android:id="@+id/btn_cert_reset"
+                    style="@style/Button.BgWhite.TextPrimary.Medium.Bold.CircularCornerRed"
+                    android:layout_width="0.0px"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="@dimen/margin_8dp"
+                    android:layout_weight="1.0"
+                    android:text="@string/reset" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginLeft="@dimen/margin_16dp"
+                android:layout_marginRight="@dimen/margin_16dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_cert_no_record"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    style="@style/TextView.TextGrey.XMedium.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_records_found" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cert_details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_24dp">
+
+                <TextView
+                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Certificate Number" />
+
+                <TextView
+                    android:id="@+id/tv_cert_no"
+                    style="@style/TextView.TextBlack.Medium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NPR01046582" />
+
+                <TextView
+                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:text="Owner Name" />
+
+                <TextView
+                    android:id="@+id/tv_owner_name"
+                    style="@style/TextView.TextBlack.Medium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alok Verma" />
+
+                <TextView
+                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:text="Pet Name" />
+
+                <TextView
+                    android:id="@+id/tv_pet_name"
+                    style="@style/TextView.TextBlack.Medium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tommy" />
+
+                <TextView
+                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:text="Rabies Vaccination Date" />
+
+                <TextView
+                    android:id="@+id/tv_rab_vac_date"
+                    style="@style/TextView.TextBlack.Medium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10/09/2021" />
+
+                <TextView
+                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:text="Rabies Vaccination Next Date" />
+
+                <TextView
+                    android:id="@+id/tv_rab_vac_next_date"
+                    style="@style/TextView.TextBlack.Medium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12/12/2021" />
+
+                <TextView
+                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:text="Certificate Expired" />
+
+                <TextView
+                    android:id="@+id/tv_cert_expired_date"
+                    style="@style/TextView.TextBlack.Medium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02/08/2021" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

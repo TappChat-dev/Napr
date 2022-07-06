@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ticket_id_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ticket_id_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ticket_id"
+                    android:inputType="" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/unit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ticket_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ticket_date"
+                    android:inputType="" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/equipment_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ticket_last_update_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/last_ticket_update"
+                    android:inputType="" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/equip_serial_no_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ticket_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ticket_status"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nac_ho_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nac_ho_date_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nac_ho_date"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/max_response_days_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/max_response_days_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Max Response days (NAC / SPARE )"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/last_remarks_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/last_remarks_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last Remarks"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/contract_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/contract_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contract Name"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/contract_ref_no_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/contract_ref_no_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contract Ref No"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/contract_type_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/contract_type_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contract Type"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/basic_cost_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/basic_cost_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Basic Cost (Rs.)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/gst_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/gst_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="GST (%)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/total_cost_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/total_cost_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Total Cost (Rs.)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/max_service_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/max_service_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Max Service LD (%)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/max_spare_ld_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/max_spare_ld_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Max Spare LD (%)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/spare_ld_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/spare_ld_rate_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Spare LD Rate (% Per Week)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/service_ld_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/service_ld_rate_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Service LD Rate (% Per Week)"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/equipment_names_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/equipment_names_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Equipment"
+                    android:inputType="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/service_type_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields"
+                app:layout_constraintBottom_toTopOf="@+id/penalty_type_layout"
+                app:layout_constraintTop_toBottomOf="@+id/equipment_names_layout">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/service_type_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/service_type"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/penalty_type_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/penalty_type_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Penalty Type"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/spare_cost_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/spare_cost_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Spare Cost"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/basic_unit_cost_annual_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/basic_unit_cost_annual_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Basic Unit Cost (Annual)"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/quarterly_unit_cost_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/quarterly_unit_cost_tv"
+                    android:layout_width="match_parent"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:hint="Quarterly Unit Cost" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/days_in_quarter_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/days_in_quarter_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Days In Quarter"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/total_delay_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/total_delay_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Total Delay"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/max_ld_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/max_ld_amount_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Max LD (Rs)"
+                    android:inputType="" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/payable_penalty_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:paddingVertical="@dimen/padding_between_two_input_fields">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/payable_penalty_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Payable Penalty"
+                    android:imeOptions="actionNext"
+                    android:inputType=""
+                    android:maxLines="1" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.ncorti.slidetoact.SlideToActView
+                android:id="@+id/createButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:outer_color="@color/colorPrimary"
+                android:paddingVertical="@dimen/padding_between_two_input_fields"
+                app:area_margin="10dp"
+                app:text_size="20sp"
+                app:text_style="bold"
+                app:complete_icon="@drawable/ic_progress_animated"
+                app:animation_duration="250"
+                app:text="@string/create"
+                app:slider_height="80dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>

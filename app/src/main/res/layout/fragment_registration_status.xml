@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/ll_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8.0dip"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/TextView.TextWhite.Small.RobotoRegular"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingStart="2.0dip"
+                android:text="@string/application_status" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                style="@style/TextView.TextWhite.Medium.RobotoBold"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:padding="@dimen/margin_8dp"
+                android:text="@string/pending" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_reason_show"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/red"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/TextView.TextWhite.Small.RobotoRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingStart="2.0dip"
+                android:text="@string/rejected_reason"
+                android:textSize="@dimen/margin_16dp" />
+
+            <ImageView
+                android:id="@+id/iv_reason_show"
+                android:layout_width="@dimen/margin_24dp"
+                android:layout_height="@dimen/margin_24dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/margin_8dp"
+                android:layout_marginEnd="@dimen/margin_8dp"
+                android:padding="2.0dip"
+                android:src="@drawable/ic_error_outline_black_24dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_dog_img"
+                    android:layout_width="120.0dip"
+                    android:layout_height="120.0dip"
+                    android:elevation="2.0dip"
+                    android:src="@drawable/img_dog2"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="4.0dip" />
+
+                <TextView
+                    android:id="@+id/tv_full_name"
+                    style="@style/TextView.TextBlack.XMedium.RobotoBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:tag="binding_1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_year"
+                        style="@style/TextView.TextBlack.Small.RobotoRegular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2Years" />
+
+                    <TextView
+                        android:id="@+id/tv_breed"
+                        style="@style/TextView.TextBlack.Small.RobotoRegular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="2.0dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_16dp"
+                    android:layout_marginTop="@dimen/margin_16dp"
+                    android:layout_marginEnd="@dimen/margin_16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoBold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/photos" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_12dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="100.0dip"
+                            android:layout_height="100.0dip"
+                            app:cardCornerRadius="4.0dip"
+                            app:cardElevation="4.0dip">
+
+                            <ImageView
+                                android:id="@+id/iv_dog1"
+                                android:layout_width="100.0dip"
+                                android:layout_height="100.0dip"
+                                android:src="@drawable/img_dog1" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="100.0dip"
+                            android:layout_height="100.0dip"
+                            android:layout_marginStart="@dimen/margin_12dp"
+                            app:cardCornerRadius="4.0dip"
+                            app:cardElevation="4.0dip">
+
+                            <ImageView
+                                android:id="@+id/iv_dog2"
+                                android:layout_width="100.0dip"
+                                android:layout_height="100.0dip"
+                                android:src="@drawable/img_dog3" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="100.0dip"
+                            android:layout_height="100.0dip"
+                            android:layout_marginStart="@dimen/margin_12dp"
+                            app:cardCornerRadius="4.0dip"
+                            app:cardElevation="4.0dip">
+
+                            <ImageView
+                                android:id="@+id/iv_dog3"
+                                android:layout_width="100.0dip"
+                                android:layout_height="100.0dip"
+                                android:src="@drawable/img_dog2" />
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_16dp"
+                    android:layout_marginEnd="@dimen/margin_16dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_certificate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/TextView.TextBlack.Medium.RobotoBold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/registration_certificate" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    style="@style/TextView.TextBlack.Small.RobotoRegular"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="2.0dip"
+                                    android:text="@string/validity" />
+
+                                <TextView
+                                    android:id="@+id/tv_valid_month"
+                                    style="@style/TextView.TextBlack.Small.RobotoRegular"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="2.0dip"
+                                    android:text="@string/valid_till_months" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btn_view_certificate"
+                            style="@style/Button.BgRed.TextWhite.Small.Regular.CircularCornerRed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="@dimen/margin_4dp"
+                            android:clickable="true"
+                            android:text="@string/view"
+                            android:textAllCaps="false" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_12dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/TextView.TextBlack.Medium.RobotoBold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/vaccination_book" />
+
+                            <TextView
+                                style="@style/TextView.TextBlack.Small.RobotoRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2.0dip"
+                                android:text="@string/recent_photo" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btn_valid_book"
+                            style="@style/Button.BgRed.TextWhite.Small.Regular.CircularCornerRed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="@dimen/margin_4dp"
+                            android:clickable="true"
+                            android:text="@string/view"
+                            android:textAllCaps="false" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_16dp"
+                    android:layout_marginTop="@dimen/margin_16dp"
+                    android:layout_marginEnd="@dimen/margin_16dp"
+                    android:elevation="4.0dip"
+                    app:cardCornerRadius="4.0dip"
+                    app:contentPadding="@dimen/padding_16dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/owner_details" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8.0dip"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/iv_owner_img"
+                                android:layout_width="62.0dip"
+                                android:layout_height="62.0dip"
+                                android:layout_marginEnd="@dimen/margin_8dp"
+                                android:elevation="4.0dip"
+                                android:src="@drawable/img_user"
+                                app:civ_border_color="@color/colorPrimary"
+                                app:civ_border_width="4.0dip" />
+
+                            <LinearLayout
+                                android:layout_width="0.0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:orientation="vertical"
+                                android:paddingStart="@dimen/padding_16dp"
+                                android:paddingTop="8.0dip"
+                                android:paddingBottom="8.0dip">
+
+                                <TextView
+                                    style="@style/TextView.TextBlack.Small.RobotoRegular"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/name" />
+
+                                <TextView
+                                    android:id="@+id/tv_owner_name"
+                                    style="@style/TextView.TextBlack.Medium.RobotoRegular"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:tag="binding_2" />
+
+                                <TextView
+                                    android:id="@+id/tv_owner_phone"
+                                    style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:tag="binding_3" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_12dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                style="@style/TextView.TextBlack.VSmall.RobotoRegular"
+                                android:layout_width="28.0dip"
+                                android:layout_height="28.0dip"
+                                android:src="@drawable/ic_home_24dp" />
+
+                            <TextView
+                                android:id="@+id/tv_address"
+                                style="@style/TextView.TextBlack.XSmall.RobotoRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="12.0dip"
+                                android:tag="binding_4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_12dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0.0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/TextView.TextBlack.XSmall.RobotoBold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/owner_id" />
+
+                                <TextView
+                                    android:id="@+id/tv_documents_name"
+                                    style="@style/TextView.TextBlack.VSmall.RobotoRegular"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="2.0dip"
+                                    android:text="@string/example_identities" />
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btn_owner_identity"
+                                style="@style/Button.BgRed.TextWhite.Small.Regular.CircularCornerRed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:layout_margin="@dimen/margin_4dp"
+                                android:clickable="true"
+                                android:text="@string/view"
+                                android:textAllCaps="false" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_transactions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16dp"
+                    android:elevation="4.0dip"
+                    app:cardCornerRadius="4.0dip"
+                    app:contentPadding="@dimen/padding_16dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/transaction_details" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.XSmall.RobotoBold"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/form_id" />
+
+                        <TextView
+                            android:id="@+id/tv_form_id"
+                            style="@style/TextView.TextBlack.Small.RobotoRegular"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_8dp"
+                            android:tag="binding_5" />
+
+                        <TextView
+                            android:id="@+id/tv_paid_title"
+                            style="@style/TextView.TextBlack.XSmall.RobotoBold"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp" />
+
+                        <TextView
+                            android:id="@+id/tv_amount"
+                            style="@style/TextView.TextBlack.Small.RobotoRegular"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_8dp"
+                            android:tag="binding_6" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.XSmall.RobotoBold"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/transaction_id" />
+
+                        <TextView
+                            android:id="@+id/tv_txn_id"
+                            style="@style/TextView.TextBlack.Small.RobotoRegular"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_8dp"
+                            android:tag="binding_7" />
+
+                        <Button
+                            android:id="@+id/btn_edit"
+                            style="@style/Button.BgRed.TextWhite.Small.Regular.CircularCornerRed"
+                            android:layout_width="180.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="@dimen/margin_16dp"
+                            android:clickable="true"
+                            android:text="@string/fill_again"
+                            android:textAllCaps="false" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

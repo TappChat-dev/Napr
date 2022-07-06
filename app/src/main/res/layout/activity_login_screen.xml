@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50.0dip">
+
+        <ImageView
+            android:id="@+id/noida_logo_image"
+            android:layout_width="200.0dip"
+            android:layout_height="100.0dip"
+            android:layout_gravity="center"
+            android:padding="1.0dip"
+            android:background="@drawable/noida_logo_white" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="@string/pet_reg"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32.0dip"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="@string/mob_app"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.0dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                android:gravity="center|left"
+                app:startIconDrawable="@drawable/ic_icon_user"
+                app:startIconTint="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="add"
+                    android:drawablePadding="@dimen/margin_8dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:gravity="center|left"
+                    android:inputType="textCapWords"
+                    android:maxLength="10"
+                    android:padding="6.0dip"
+                    android:paddingStart="@dimen/margin_8dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:text=" " />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:prefixText="+91"
+                android:layout_gravity="center|left"
+                android:gravity="center|left"
+                app:startIconDrawable="@drawable/ic_phone_primary"
+                app:startIconTint="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_login_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="add"
+                    android:drawablePadding="@dimen/margin_8dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:gravity="center|left"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="6.0dip"
+                    android:paddingStart="@dimen/margin_8dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:text=" " />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/otp_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_otp"
+                android:layout_width="0dp"
+                android:layout_height="45.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_account_primary"
+                android:drawablePadding="@dimen/margin_8dp"
+                android:fontFamily="@font/roboto_black"
+                android:hint="@string/cb_otp"
+                android:inputType="textCapWords"
+                android:maxLength="100"
+                android:padding="6.0dip"
+                android:paddingStart="@dimen/margin_8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/colorPrimary" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/colorPrimary" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:letterSpacing="0.2"
+            android:padding="@dimen/margin_8dp"
+            android:text="@string/login_signup"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/verify_otp_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:letterSpacing="0.2"
+            android:padding="@dimen/margin_8dp"
+            android:text="Verify OTP"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

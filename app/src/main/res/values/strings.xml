@@ -1,0 +1,636 @@
+<resources>
+    <string name="app_name">NAPR</string>
+
+
+    <string name="title_activity_splashscreen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="app_vendor">INDIAN COAST GUARD</string>
+    <string name="new_ticket">New Ticket</string>
+    <string name="title_fragment_dashboard">Dashboard</string>
+    <string name="title_fragment_create_ticket">Create Ticket</string>
+    <string name="title_fragment_view_ticket">View Ticket</string>
+    <string name="title_fragment_contracts">Contracts</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="penalty">Penalty</string>
+    <string name="title_fragment_initiate_penalty">Initiate Penalty</string>
+    <string name="title_fragment_view_penalty">View Penalty</string>
+    <string name="contract">Contract</string>
+    <string name="title_fragment_create_contract">Create Contract</string>
+    <string name="title_fragment_contractor_sla">Contractor SLA</string>
+    <string name="title_fragment_role_configuration">Role Configuration</string>
+    <string name="title_fragment_view_vendor_details">View Vendor Details</string>
+    <string name="equipment">Equipment</string>
+    <string name="title_fragment_add_equipment">Add Equipment</string>
+    <string name="title_fragment_view_equipment">View Equipment</string>
+    <string name="vendors">Vendors</string>
+    <string name="title_fragment_view_sla">View SLA</string>
+    <string name="tickets">Tickets</string>
+    <string name="smac">SMAC</string>
+    <string name="ticket_priority">Ticket Priority</string>
+    <string name="title_fragment_vendors">Vendors</string>
+    <string name="attached_image_text">Image attached</string>
+    <string name="title">Title</string>
+    <string name="title_fragment_equipments">Equipments</string>
+    <string name="search">Search</string>
+    <string name="contract_name">Contract Name</string>
+    <string name="unit">Unit</string>
+    <string name="equipment_name">Equipment Name</string>
+    <string name="response_time_in_days">Response Time (In Days)</string>
+    <string name="service_type">Service Type</string>
+    <string name="equipment_serial_no">Equipment Serial No</string>
+    <string name="equipment_located_at">Equipment Located at</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="contact_person_number">Contact Person Number</string>
+    <string name="description">Description</string>
+    <string name="image_optional">Image (Optional)</string>
+    <string name="create">Create</string>
+    <string name="date">Date</string>
+    <string name="attachments">Attachments</string>
+    <string name="close">Close</string>
+    <string name="name">Name</string>
+    <string name="vendor_name">Vendor Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="contact_no">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="type">Type</string>
+    <string name="subtype">Subtype</string>
+    <string name="model">Model</string>
+    <string name="ref_no">Reference No</string>
+    <string name="initiate_penalty">Initiate Penalty</string>
+    <string name="ticket_id">Ticket ID</string>
+    <string name="ticket_date">Ticket Date</string>
+    <string name="last_ticket_update">Last Ticket Update</string>
+    <string name="ticket_status">Ticket Status</string>
+    <string name="nac_ho_date">NAC H/o Date</string>
+    <string name="pet_reg">PET REGISTRATION</string>
+    <string name="mob_app">MOBILE APP</string>
+    <string name="login_signup">Login / Signup</string>
+
+
+    <string name="Cancel">Cancel</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="account">Account</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_next">Next</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="add_dog_photos">"Add Pet's Photos"</string>
+    <string name="add_hfp">House No/Flat No/Plot No <font color="#FF0000"> *</font></string>
+    <string name="add_name">Village Name <font color="#FF0000"> *</font></string>
+    <string name="add_type">Address Type<font color="#FF0000"> *</font></string>
+    <string name="add_upload_documents">Upload Documents</string>
+    <string name="address_line1">Address line 1</string>
+    <string name="addresses">Address<font color="#FF0000"> *</font></string>
+    <string name="age">Age</string>
+    <string name="age_dog">Pet Age</string>
+    <string name="alert_title"><u>Noida Municipal Corporation</u></string>
+    <string name="amount">Amount</string>
+    <string name="api_base_url">http://petregistration.mynoida.in/webapi/</string>
+    <string name="api_key">Basic VVNFUl9DTElFTlRfQVBQOnBhc3N3b3Jk</string>
+    <string name="app_name_verfiy">Verify OTP</string>
+    <string name="app_title">नोएडा अथॉरिटी</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="application">Application</string>
+    <string name="application_details">Application Details</string>
+    <string name="application_form">Application Form</string>
+    <string name="application_status">Application Status :</string>
+    <string name="axis_bank">AXIS</string>
+    <string name="back_button_warning">"Please don't hit the back button until the action is complete."</string>
+    <string name="bank_prompt">Select your Bank</string>
+    <string name="block">Block <font color="#FF0000"> *</font></string>
+    <string name="block_list">Block-List <font color="#FF0000"> *</font></string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="breed">Breed</string>
+    <string name="breeds">Breed<font color="#FF0000"> *</font></string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_confirmation">Are you sure you want to cancel this transaction?</string>
+    <string name="cardType_prompt">Select Card Type</string>
+    <string name="card_number_format">xxxx-xxxx-xxxx-xxxx</string>
+    <string name="cb_ac_debited_twice">* Your account may be debited twice if you retry.</string>
+    <string name="cb_approve_otp">Approve</string>
+    <string name="cb_authenticate_with">Select an option for Faster Payment</string>
+    <string name="cb_b_cancel">Cancel</string>
+    <string name="cb_bank_logo">Bank LOGO</string>
+    <string name="cb_bank_page_loading">Please wait. Bank page is loading..</string>
+    <string name="cb_btn_action">btn_action</string>
+    <string name="cb_btn_text">btn_text</string>
+    <string name="cb_button">Button</string>
+    <string name="cb_cancel">cancel</string>
+    <string name="cb_cancel_transaction">Cancel Transaction</string>
+    <string name="cb_card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
+    <string name="cb_catchAll_success_msg">catchAllSuccessMsg</string>
+    <string name="cb_check_visibility_cajs">checkVisibilityCatchAllJSCall</string>
+    <string name="cb_checkbox">checkbox</string>
+    <string name="cb_choose">choose</string>
+    <string name="cb_confirm_transaction">Confirm Transaction</string>
+    <string name="cb_debug_enabled">cb_debug_enabled</string>
+    <string name="cb_detect_bank">detectBank</string>
+    <string name="cb_detect_otp">detectOtp</string>
+    <string name="cb_enter_caps_otp">Enter OTP</string>
+    <string name="cb_enter_manually">Enter OTP Manually</string>
+    <string name="cb_enter_otp">enterOTP</string>
+    <string name="cb_enter_otp_c">Enter OTP</string>
+    <string name="cb_enter_pin">enterPIN</string>
+    <string name="cb_error">error</string>
+    <string name="cb_error_title">ERROR_TITLE</string>
+    <string name="cb_fill_otp">fillOTP</string>
+    <string name="cb_find_new_otp">findNewOtp</string>
+    <string name="cb_find_otp">findOtp</string>
+    <string name="cb_hide">hide</string>
+    <string name="cb_incorrect_OTP_2">incorrectOTP</string>
+    <string name="cb_incorrect_otp_e">Incorrect OTP!</string>
+    <string name="cb_incorrect_password">Incorrect Password</string>
+    <string name="cb_incorrect_pin">incorrectPIN</string>
+    <string name="cb_init">init</string>
+    <string name="cb_invalid_vpa">Invalid VPA</string>
+    <string name="cb_logs_level">cb_logs_level</string>
+    <string name="cb_nb_image">net banking image</string>
+    <string name="cb_no_internet">NO INTERNET CONNECTIVITY</string>
+    <string name="cb_no_internet_error">Oops.. something bad happened</string>
+    <string name="cb_otp">otp</string>
+    <string name="cb_otp_received">OTP Received</string>
+    <string name="cb_password">PASSWORD</string>
+
+    <string name="cb_password_value">Password</string>
+    <string name="cb_payu_icon">PayU icon</string>
+    <string name="cb_payu_response">payu_response</string>
+    <string name="cb_payu_review_order">Review Order</string>
+    <string name="cb_pin">pin</string>
+    <string name="cb_please_wait">Please Wait</string>
+    <string name="cb_populate_user_id">populate_user_id</string>
+    <string name="cb_powered_by">Powered by</string>
+    <string name="cb_process_otp">process_otp</string>
+    <string name="cb_process_request">Processing Your Request</string>
+    <string name="cb_pwd_btn">pwd_btn</string>
+    <string name="cb_receive_sms">Did you receive a SMS from your bank?</string>
+    <string name="cb_regen_otp">regenerate_otp</string>
+    <string name="cb_regenerate">regenerate</string>
+    <string name="cb_regenerate_otp">Regenerate OTP</string>
+    <string name="cb_regenerate_otp_text">It is taking long.You may…</string>
+    <string name="cb_register">register</string>
+    <string name="cb_register_for_pin">REGISTER FOR PIN</string>
+    <string name="cb_register_option">registerOption</string>
+    <string name="cb_registeration_detail">Enter your registration details</string>
+    <string name="cb_remember_user">Remember User ID</string>
+    <string name="cb_result">result</string>
+    <string name="cb_resuming_transaction">Resuming transaction please wait</string>
+    <string name="cb_retry">retry…</string>
+    <string name="cb_retry_otp">retryOTP</string>
+    <string name="cb_retry_restart">Or you can retry now to restart your transaction.</string>
+    <string name="cb_retry_transaction">Retry Now</string>
+    <string name="cb_review_order">Review Order</string>
+    <string name="cb_show_password">Show password</string>
+    <string name="cb_skip_screen">skipScreen</string>
+    <string name="cb_slow_internet_confirmation">Due to slower internet on your mobile device, we were unable to receive a confirmation from the bank.</string>
+    <string name="cb_slownetwork_status">You are on a slow network that may have caused this transaction to fail. We will notify you when your network is ready to process the transaction.</string>
+    <string name="cb_sms_otp">SMS OTP</string>
+    <string name="cb_snooze">Snooze</string>
+    <string name="cb_snooze_cookie">Cookie</string>
+    <string name="cb_snooze_network_down_message">"We were not able to detect a better network to resume the transaction.
+You may retry in a few minutes."</string>
+    <string name="cb_snooze_network_error">Network Error</string>
+    <string name="cb_snooze_payuid">PAYUID</string>
+    <string name="cb_snooze_phpsessid">PHPSESSID</string>
+    <string name="cb_snooze_retry_anyway">RETRY ANYWAY</string>
+    <string name="cb_snooze_slow_user_warning">Your session is about to expire. Please complete the transaction quickly to avoid failure.</string>
+    <string name="cb_snooze_slow_user_warning_header">Finish Transaction</string>
+    <string name="cb_snooze_try_later">TRY LATER</string>
+    <string name="cb_snooze_verify_api_status">api_status</string>
+    <string name="cb_toggle_field">toggleField</string>
+    <string name="cb_top_arrow">CB arrow</string>
+    <string name="cb_transaction_failed">It seems the bank did not recognize the transaction. You may contact the bank/ merchant for more details.</string>
+    <string name="cb_transaction_failed_debited">Or you can retry now to restart your transaction.</string>
+    <string name="cb_transaction_failed_retry">Or you can retry now to restart your transaction.</string>
+    <string name="cb_transaction_failed_title">Transaction not confirmed</string>
+    <string name="cb_transaction_paused">Transaction Paused</string>
+    <string name="cb_transaction_state_unknown">Transaction State Unknown</string>
+    <string name="cb_transaction_status">Please wait while we confirm this transaction from the bank. We will notify you once the bank confirms the status of your transaction.</string>
+    <string name="cb_transaction_success_msg">We have verified the transaction with the bank. You will now be redirected to the merchant application.</string>
+    <string name="cb_transaction_sucess">Transaction successful!</string>
+    <string name="cb_transaction_verified">Transaction Verified</string>
+    <string name="cb_try_later">Try Later?</string>
+    <string name="cb_use_sms_otp">USE SMS OTP</string>
+    <string name="cb_user_input_confirm_transaction">confirm_transaction</string>
+    <string name="cb_verify">Verify</string>
+    <string name="cb_verify_and_proceed">Verify and Proceed to Pay</string>
+    <string name="cb_verify_message_received">verify_message_received</string>
+    <string name="cb_waiting_for_otp">"Sit back and relax while we
+ check OTP"</string>
+    <string name="certificate_renewal">Certificate Renewal</string>
+    <string name="certificate_year">Certificate Year</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="choose_bank">Choose Your Bank</string>
+    <string name="citi">CITI</string>
+    <string name="close_image">Close helper</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continue with Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_smart_device_instructions">To connect your account, open the Facebook app on your mobile device and check for notifications.</string>
+    <string name="com_facebook_smart_device_instructions_or">- OR -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Not you?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
+    <string name="com_facebook_tooltip_default">"You're in control - choose what info you want to share with apps."</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="condition"><u>Terms and Conditions</u></string>
+    <string name="contact_us">Contact Us</string>
+    <string name="could_not_receive_data">Could not receive data</string>
+    <string name="countrycode">+ 91</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="crop_image_activity_title" />
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="cvv">CVV</string>
+    <string name="days">Days</string>
+    <string name="default_notification_channel_id">admin_channel</string>
+    <string name="demo_hi">Hi,</string>
+    <string name="demo_name">Username</string>
+    <string name="details_of_complainer">Details of Complainer<font color="#FF0000"> *</font></string>
+    <string name="do_you_really_want_to_cancel_the_transaction">Do you really want to cancel the transaction?</string>
+    <string name="dob">DOB</string>
+    <string name="dog">Pet</string>
+    <string name="dog_details">Pet Details</string>
+    <string name="dog_name">Pet Name <font color="#FF0000"> *</font></string>
+    <string name="dogage">Age<font color="#FF0000"> *</font></string>
+    <string name="dogs_Added">Added Dogs</string>
+    <string name="dogs_registration">- Pet Registration -</string>
+    <string name="dummy_address">H.No.420, Prem Gali, Roop Nagar, Gaziabad</string>
+    <string name="dummy_age">2 years,</string>
+    <string name="dummy_breed">Labrador</string>
+    <string name="dummy_date">Wednesday , 30 Oct 2019</string>
+    <string name="dummy_dogs_count">6</string>
+    <string name="dummy_form_id">FRM_ID_002124</string>
+    <string name="dummy_mob_no">9987654321</string>
+    <string name="dummy_owner_name">Abhishek Bacchan</string>
+    <string name="dummy_pet_name">Bruno</string>
+    <string name="dummy_registration_no">5780011</string>
+    <string name="dummy_son_of">S/o Amitabh Bacchan</string>
+    <string name="dummy_txn_id">78415916815</string>
+    <string name="dummy_welcome_msg">"Welcome,
+Anand Gautam"</string>
+    <string name="edit">Edit Details</string>
+    <string name="editno">Edit my mobile number</string>
+    <string name="enable_one_click_checkout">Enable one click checkout.</string>
+    <string name="enter_card_details">Enter Card Details</string>
+    <string name="enter_vpa">Enter VPA</string>
+    <string name="error_fill_vpa">Please fill VPA</string>
+    <string name="error_invalid_vpa">Invalid VPA</string>
+    <string name="error_login_expired">Token has Expired</string>
+    <string name="error_message">Something went wrong. Please try again.</string>
+    <string name="example_identities">Aadhar/ Ration Card/ Voter ID etc</string>
+    <string name="expires">Expires:</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="female">Female</string>
+    <string name="files_url">http://petregistration.mynoida.in/</string>
+    <string name="fill_again">Fill Again</string>
+    <string name="firebase_database_url">https://gnn-pets.firebaseio.com</string>
+    <string name="flat_no">Flat No</string>
+    <string name="form_amount">500</string>
+    <string name="form_charge_message">You will be redirected to our payment gateway pay your application amount</string>
+    <string name="form_id">Form ID</string>
+    <string name="generic_http_error_desc">Http 503 Server no response</string>
+    <string name="generic_http_error_title">No Any Response</string>
+    <string name="generic_no_internet_desc">Internet Connection Lost</string>
+    <string name="generic_no_internet_title">No Internet</string>
+    <string name="getting_apps">getting apps...</string>
+    <string name="hdfc">HDFC</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="helper_image">UPI Helper Image</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_vpa">Enter your VPA</string>
+    <string name="home">Home</string>
+    <string name="hrs">High-Rise Society</string>
+    <string name="icici">ICICI</string>
+    <string name="images">Images</string>
+    <string name="intent_sdk_name">PhonePeIntentSDK</string>
+    <string name="internet_restored">Internet Restored</string>
+    <string name="landmark">Landmark</string>
+    <string name="large_text">"Material is the metaphor.
+
+ A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet  technologically advanced and open to imagination and magic.
+ Surfaces and edges of the material provide visual cues that are grounded in reality. The  use of familiar tactile attributes helps users quickly understand affordances. Yet the  flexibility of the material creates new affordances that supercede those in the physical  world, without breaking the rules of physics.
+ The fundamentals of light, surface, and movement are key to conveying how objects move,  interact, and exist in space and in relation to each other. Realistic lighting shows  seams, divides space, and indicates moving parts.
+
+ Bold, graphic, intentional.
+
+ The foundational elements of print based design typography, grids, space, scale, color,  and use of imagery guide visual treatments. These elements do far more than please the  eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge  imagery, large scale typography, and intentional white space create a bold and graphic  interface that immerse the user in the experience.
+ An emphasis on user actions makes core functionality immediately apparent and provides  waypoints for the user.
+
+ Motion provides meaning.
+
+ Motion respects and reinforces the user as the prime mover. Primary user actions are  inflection points that initiate motion, transforming the whole design.
+ All action takes place in a single environment. Objects are presented to the user without  breaking the continuity of experience even as they transform and reorganize.
+ Motion is meaningful and appropriate, serving to focus attention and maintain continuity.  Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.
+
+ 3D world.
+
+ The material environment is a 3D space, which means all objects have x, y, and z  dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the  positive z-axis extending towards the viewer. Every sheet of material occupies a single  position along the z-axis and has a standard 1dp thickness.
+ On the web, the z-axis is used for layering and not for perspective. The 3D world is  emulated by manipulating the y-axis.
+
+ Light and shadow.
+
+ Within the material environment, virtual lights illuminate the scene. Key lights create  directional shadows, while ambient light creates soft shadows from all angles.
+ Shadows in the material environment are cast by these two light sources. In Android  development, shadows occur when light sources are blocked by sheets of material at  various positions along the z-axis. On the web, shadows are depicted by manipulating the  y-axis only. The following example shows the card with a height of 6dp.
+
+ Resting elevation.
+
+ All material objects, regardless of size, have a resting elevation, or default elevation  that does not change. If an object changes elevation, it should return to its resting  elevation as soon as possible.
+
+ Component elevations.
+
+ The resting elevation for a component type is consistent across apps (e.g., FAB elevation  does not vary from 6dp in one app to 16dp in another app).
+ Components may have different resting elevations across platforms, depending on the depth  of the environment (e.g., TV has a greater depth than mobile or desktop).
+
+ Responsive elevation and dynamic elevation offsets.
+
+ Some component types have responsive elevation, meaning they change elevation in response  to user input (e.g., normal, focused, and pressed) or system events. These elevation  changes are consistently implemented using dynamic elevation offsets.
+ Dynamic elevation offsets are the goal elevation that a component moves towards, relative  to the component’s resting state. They ensure that elevation changes are consistent  across actions and component types. For example, all components that lift on press have  the same elevation change relative to their resting elevation.
+ Once the input event is completed or cancelled, the component will return to its resting  elevation.
+
+ Avoiding elevation interference.
+
+ Components with responsive elevations may encounter other components as they move between  their resting elevations and dynamic elevation offsets. Because material cannot pass  through other material, components avoid interfering with one another any number of ways,  whether on a per component basis or using the entire app layout.
+ On a component level, components can move or be removed before they cause interference.  For example, a floating action button (FAB) can disappear or move off screen before a  user picks up a card, or it can move if a snackbar appears.
+ On the layout level, design your app layout to minimize opportunities for interference.  For example, position the FAB to one side of stream of a cards so the FAB won’t interfere  when a user tries to pick up one of cards.
+
+"</string>
+    <string name="learn_upi">Learn how UPI works</string>
+    <string name="load_again">Load again</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="logout">Logout</string>
+    <string name="main_action_crop">Crop</string>
+    <string name="male">Male</string>
+    <string name="mobile">Mobile No</string>
+    <string name="month_format">MM</string>
+    <string name="months">Month</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="nagar_nigam">Authority</string>
+    <string name="name_of_complainer">Name of Complainer<font color="#FF0000"> *</font></string>
+    <string name="name_on_card">Name On Card</string>
+    <string name="new_registration">New Registration</string>
+    <string name="nick_name">Pet Name</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_records_found">No Records Found</string>
+    <string name="no_upi_app_found_error">No UPI Payment App found!</string>
+    <string name="oauth_url">http://petregistration.mynoida.in/</string>
+    <string name="ok">Ok</string>
+    <string name="old_certificate_date">Old Certificate Date</string>
+    <string name="old_certificate_no">Old Certificate No.</string>
+    <string name="order_information">Order Information</string>
+    <string name="other_sector_no">Other Sector Number <font color="#FF0000"> *</font></string>
+    <string name="other_society_name">Other Society Name <font color="#FF0000"> *</font></string>
+    <string name="other_village_name">Other Village Name <font color="#FF0000"> *</font></string>
+    <string name="owner">Owner Name</string>
+    <string name="owner_details">Owner Details</string>
+    <string name="owner_id">Owner Identity</string>
+    <string name="owner_number">Owner Number</string>
+    <string name="owner_numbers">Owner Number<font color="#FF0000"> *</font></string>
+    <string name="owner_photo">"Owner's Photo"</string>
+    <string name="owner_with_dog">"Owner
+with pet"</string>
+    <string name="ownwe_detail">Owner Details</string>
+    <string name="ownwer_name">Owner Name</string>
+    <string name="ownwer_names">Owner Name<font color="#FF0000"> *</font></string>
+    <string name="paidto">Paid to GNN</string>
+    <string name="password_encrypted">anujnegi@</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="pay_via">Pay via</string>
+    <string name="pay_with">Pay with</string>
+    <string name="payu_debug_mode_enabled">payu_debug_mode_enabled</string>
+    <string name="payu_gpay_cancel">Cancel</string>
+    <string name="payu_gpay_do_you_really_want_to_cancel_the_transaction">Do you really want to cancel the transaction?</string>
+    <string name="payu_gpay_module_is_not_imported">PayU Gpay module is not imported, please add this dependency on Gradle: implementation com.payu.gpay</string>
+    <string name="payu_gpay_ok">Ok</string>
+    <string name="payu_gpay_please_enable_gms_provider">Please enable Gms provider to use the web service to this device. Reference: https://bit.ly/2NRK5S6</string>
+    <string name="payu_logging_enabled">payu_logging_enabled</string>
+    <string name="payu_logs_level">payu_logs_level</string>
+    <string name="payu_network_please_wait">Please Wait</string>
+    <string name="payu_network_process_request">Processing Your Request</string>
+    <string name="payu_network_result">result</string>
+    <string name="payu_phonepe_module_is_not_imported">PayU Phonepe module is not imported, please add this dependency on Gradle: implementation com.payu.phonepe</string>
+    <string name="payu_post_url">payu_post_url</string>
+    <string name="payu_samsung_module_is_not_imported">PayU SamsungPay module is not imported, please add this dependency on Gradle: implementation com.payu.samsungpay</string>
+    <string name="payu_web_service_url">payu_web_service_url</string>
+    <string name="pending">Pending</string>
+    <string name="pet_type">Pet Type<font color="#FF0000"> *</font></string>
+    <string name="petname">Pet Name<font color="#FF0000"> *</font></string>
+    <string name="ph_merchantLogoUrl">null</string>
+    <string name="ph_merchantName">PhonePe</string>
+    <string name="phone">Enter Mobile No.</string>
+    <string name="gender">Enter Gender</string>
+    <string name="confirm_password">Enter Confirm Password</string>
+    <string name="phonepay_key">4gcXBD</string>
+    <string name="phonepay_merchant_domain">www.noidaauthorityonline.in</string>
+    <string name="phonepay_merchant_name">NOIDA NAGAR NIGAM DOG REGISTRATION(Android)</string>
+    <string name="phonepay_salt">uEUTeQqzQhwwHg0qZCpYVRA9ufPnR9zE</string>
+    <string name="phonepay_setup_key">Hosted</string>
+    <string name="photos">Photos</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="pincode">Pincode <font color="#FF0000"> *</font></string>
+    <string name="please_enabled_gms_provider">Please enable Gms provider to use the web service to this device. Reference: https://bit.ly/2NRK5S6</string>
+    <string name="please_provide_merchant_key_in_manifest">Please provide merchant key through config.</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="proceed_to_payment">Proceed to payment</string>
+    <string name="profile">Profile</string>
+    <string name="progress">"Please wait,
+ processing your request"</string>
+    <string name="rabbies_next_vaccination_date">Next Due Date Rabbies Vaccination</string>
+    <string name="rabbies_next_vaccination_dates">Next Due Date Rabbies Vaccination <font color="#FF0000"> *</font></string>
+    <string name="rabbies_vaccination_date">Rabbies Vaccination Date</string>
+    <string name="rabbies_vaccination_dates">Rabbies Vaccination Date<font color="#FF0000"> *</font></string>
+    <string name="read_less">Read Less</string>
+    <string name="read_more">Read More</string>
+    <string name="reason">Reason</string>
+    <string name="reasons">Reason<font color="#FF0000"> *</font></string>
+    <string name="recent_photo">Recent Photo</string>
+    <string name="redirect_back_to_merchant">Redirecting you back to merchant...</string>
+    <string name="redirection_text">You will be redirected to your banks website to complete payment</string>
+    <string name="registeration_no">Registration No.</string>
+    <string name="registered_dogs">Registered Pets</string>
+    <string name="registration_certificate">Registration Certificate</string>
+    <string name="rejected_reason">Rejected Reason :</string>
+    <string name="remove">Remove</string>
+    <string name="renew_details">Renew Details</string>
+    <string name="reset">Reset</string>
+    <string name="residence">Residence</string>
+    <string name="resuming_your_transaction">Resuming your transaction...</string>
+    <string name="retry">Retry</string>
+    <string name="save_card">Save card for faster checkouts.</string>
+    <string name="sbi">SBI</string>
+    <string name="search_cert">Search Certificate</string>
+    <string name="search_menu_title">Search</string>
+    <string name="sector_no">Sector Number</string>
+    <string name="select_bank">Select Other Banks</string>
+    <string name="select_breed">Select Breed</string>
+    <string name="select_for_renew">Select the one you want to renew</string>
+    <string name="select_image">Select Image</string>
+    <string name="sex">Sex</string>
+    <string name="sexs">Sex<font color="#FF0000"> *</font></string>
+    <string name="show_less">Show Less</string>
+    <string name="show_more">Show More</string>
+    <string name="society_name">Society Name <font color="#FF0000"> *</font></string>
+    <string name="sp_internet_restored_ttl">sp_internet_restored_ttl</string>
+    <string name="spay_cancel_request">Cancelling Your Request</string>
+    <string name="spay_please_wait">Please Wait</string>
+    <string name="spay_process_request">Processing Your Request</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_of_registration">Registration Status</string>
+    <string name="status_unknown_redirect_to_merchant">The bank could not verify the transaction at this time. Redirecting you back to the merchant...</string>
+    <string name="street_no">Street No <font color="#FF0000"> *</font></string>
+    <string name="surepay_js">"function surePayData(){var list = document.getElementsByTagName(\"input\"); var map = {};
+                    for(var i =0;i&lt;list.length;i++) {if(list[i].type=='hidden')
+                    map[list[i].name]=list[i].value;} PayU.surePayData(JSON.stringify(map));};
+                    surePayData();"</string>
+    <string name="term_condition">" With reference to proposal, vide number 253, presented in the council meeting held on 21.09.2019, following are the terms and condition for license for pets to the owners falling under municipal corporation jurisdiction:
+
+ "<b> 1. License fee: </b>" The license fee charged on pet owner to own a pet would be INR 500/- per year(to be paid in the month of April every year).
+
+ "<b> 2. Renewal of license: </b>"
+
+ "<b> a. </b>"The license would be valid for a period of one year and same would expire on the 31st of march of the financial year.
+
+ "<b> b. </b>"Renewal of the license would be done after the satisfactory report of the Municipal commissioner license authority and proof of vaccination record issued by registered veterinarian.
+
+ "<b> c. </b>"For the renewal of license, the applicant has to apply between 1st and 30th of April every year.
+
+ "<b> d. </b>"If any application for license would be received after the 30th of April and before 31st may, the applicant has to pay a fine of INR 200 along with the initial license charges of INR 500.
+
+ "<b> e. </b>"If the application is submitted on or after 1st of june, applicant has to pay a fine/ penalty of INR 10/-Day.
+
+ "<b> 3. Terms of license:</b>"
+
+ "<b> a. </b>"Individuals owning pets, have to intimate the Noida Authority of the ownership of the pet within 15 days of its ownership.
+
+ "<b> b. </b>"The owners must not leave the pet unattended in any public area such as a park, street, roads, etc. Also, they shall not allow the pet for open defecation on roads, streets, parks, etc.
+
+ "<b> c. </b>"It is the owner's responsibility that the neighbor and any other individual who is not disturbed have issues with respect to upkeep and comfort of the pet.
+
+ "<b> d. </b>"Running of a pet breeding center is prohibited in any flathouse in residential area for commercial sales purchase purpose to avoid any kind of disturbance to the neighbors or any individual.
+
+ "<b> e. </b>"If the owner of the pet, responsible to pay the license fee to municipal corporation, dies or sells the pet off or transfers the pet to some other place or person, this information must be furnished to the authority i.e. Noida Municipal Corporation, within 15 days of such activity in written format.
+
+ "</string>
+    <string name="test">Test</string>
+    <string name="text_enter_cvv">Please enter your CVV</string>
+    <string name="text_or">or</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_payments">PaymentsActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_temp">TempActivity</string>
+    <string name="tower_no">Tower Number <font color="#FF0000"> *</font></string>
+    <string name="transaction_cancelled">Transaction Cancelled</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="trouble">"I'm having trouble"</string>
+    <string name="upi_chooser_title">Choose UPI app</string>
+    <string name="upload_address_proof">"Address
+Proof"</string>
+    <string name="upload_id">"Upload
+Photo Id"</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="upload_sign">Upload Sign</string>
+    <string name="upload_vaccination_book">Vaccination Book</string>
+    <string name="upload_vaccination_book_optional">Vaccination Book Optional</string>
+    <string name="vaccination_book">Vaccination Book</string>
+    <string name="valid_till">Valid upto</string>
+    <string name="valid_till_months">6</string>
+    <string name="validation_book">Validation Book</string>
+    <string name="validity">Validity :</string>
+    <string name="verify">Verify</string>
+    <string name="verify_vpa">Verify VPA</string>
+    <string name="view">View</string>
+    <string name="village">Villages</string>
+    <string name="visit_gmc_website">Visit GMC Website</string>
+    <string name="visit_gnn_website">Visit</string>
+    <string name="vpa_text">yourname@bankname</string>
+    <string name="vpa_text_less">VPA is your Virtual Payment Address in the format yourname@bankname.</string>
+    <string name="vpa_text_more">"VPA is your Virtual Payment Address in the format yourname@bankname.
+
+ You can create your VPA from any UPI enabled Bank application or third party application. You need the Bank application installed in your phone to complete this transaction."</string>
+    <string name="vpa_title">Enter your VPA (UPI Address)</string>
+    <string name="wallet_sdk_name">WalletSDK</string>
+    <string name="website_rul">https://noidaauthorityonline.in/</string>
+    <string name="welcometoapp">Welcome to Noida</string>
+    <string name="year">Year</string>
+    <string name="year_format">YYYY</string>
+    <string name="yes">Yes</string>
+</resources>

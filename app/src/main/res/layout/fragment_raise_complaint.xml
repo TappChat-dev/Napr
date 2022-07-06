@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_eeeeee"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_16dp">
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/name_of_complainer" />
+
+                    <TextView
+                        android:id="@+id/et_nameofcomplainer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3.0dip"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="center_vertical"
+                        android:paddingStart="8.0dip"
+                        android:tag="binding_1"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/add_type" />
+
+                    <TextView
+                        android:id="@+id/et_add_type"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3.0dip"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="center_vertical"
+                        android:paddingStart="8.0dip"
+                        android:tag="binding_2"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_add_high_rise_society"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/sector_no" />
+
+                        <TextView
+                            android:id="@+id/et_sector_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_3"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/et_other_sector_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_4"
+                            android:textColor="@color/black"
+                            android:visibility="gone" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/society_name" />
+
+                        <TextView
+                            android:id="@+id/et_society_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_5"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/et_other_society_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_6"
+                            android:textColor="@color/black"
+                            android:visibility="gone" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/tower_no" />
+
+                        <TextView
+                            android:id="@+id/et_tower_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_7"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/address_line1" />
+
+                        <TextView
+                            android:id="@+id/et_address_line1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_8"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/flat_no" />
+
+                        <TextView
+                            android:id="@+id/et_flat_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_9"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/pincode" />
+
+                        <TextView
+                            android:id="@+id/et_pincode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_10"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_add_village"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/add_name" />
+
+                        <TextView
+                            android:id="@+id/et_add_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_11"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/et_other_village_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_12"
+                            android:textColor="@color/black"
+                            android:visibility="gone" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/sector_no" />
+
+                        <TextView
+                            android:id="@+id/et_village_sector_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_13"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/et_other_village_sector_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_14"
+                            android:textColor="@color/black"
+                            android:visibility="gone" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/block_list" />
+
+                        <TextView
+                            android:id="@+id/et_block_list"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_15"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/landmark" />
+
+                        <TextView
+                            android:id="@+id/et_landmark"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_16"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/address_line1" />
+
+                        <TextView
+                            android:id="@+id/et_village_address_line1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_17"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/pincode" />
+
+                        <TextView
+                            android:id="@+id/et_village_pincode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:gravity="center_vertical"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_18"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_add_residence"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/add_hfp" />
+
+                        <TextView
+                            android:id="@+id/et_add_hfp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:inputType="textCapWords"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_19" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/sector_no" />
+
+                        <TextView
+                            android:id="@+id/et_residence_sector"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/drawable_spinner_background_change"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/margin_8dp"
+                            android:tag="binding_20"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/margin_16dp" />
+
+                        <TextView
+                            android:id="@+id/et_other_residence_sector"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/drawable_spinner_background_change"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/margin_8dp"
+                            android:tag="binding_21"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/margin_16dp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/street_no" />
+
+                        <TextView
+                            android:id="@+id/et_residence_street_no"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:hint="@string/street_no"
+                            android:inputType="textCapWords"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_22" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/block" />
+
+                        <TextView
+                            android:id="@+id/et_block"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/drawable_spinner_background_change"
+                            android:gravity="center_vertical"
+                            android:hint="@string/block"
+                            android:paddingStart="@dimen/margin_8dp"
+                            android:tag="binding_23"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/margin_16dp" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/landmark" />
+
+                        <TextView
+                            android:id="@+id/et_residence_landmark"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:hint="@string/landmark"
+                            android:inputType="textCapWords"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_24" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/address_line1" />
+
+                        <TextView
+                            android:id="@+id/et_residence_address_line1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:hint="@string/address_line1"
+                            android:inputType="textCapWords"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_25" />
+
+                        <TextView
+                            style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:text="@string/pincode" />
+
+                        <TextView
+                            android:id="@+id/et_residence_pincode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3.0dip"
+                            android:background="@drawable/edit_text_rectangle_black"
+                            android:hint="@string/pincode"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:paddingStart="8.0dip"
+                            android:tag="binding_26" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/reason" />
+
+                    <TextView
+                        android:id="@+id/et_rabbies_next_vaccination_date"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80.0dip"
+                        android:layout_marginTop="3.0dip"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="top"
+                        android:padding="8.0dip"
+                        android:paddingStart="8.0dip"
+                        android:tag="binding_27"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/details_of_complainer" />
+
+                    <TextView
+                        android:id="@+id/et_details"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80.0dip"
+                        android:layout_marginTop="3.0dip"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="top"
+                        android:inputType="textCapWords"
+                        android:padding="8.0dip"
+                        android:paddingStart="8.0dip"
+                        android:tag="binding_28" />
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/owner" />
+
+                    <TextView
+                        android:id="@+id/et_nickname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3.0dip"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="center_vertical"
+                        android:paddingStart="8.0dip"
+                        android:tag="binding_29"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/petname" />
+
+                    <TextView
+                        android:id="@+id/et_petname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3.0dip"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="center_vertical"
+                        android:paddingStart="8.0dip"
+                        android:tag="binding_30"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        style="@style/TextView.TextBlack.Medium.RobotoMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:text="@string/breed" />
+
+                    <TextView
+                        android:id="@+id/tv_breed"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/edit_text_rectangle_black"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/margin_8dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/margin_16dp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_uploadid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:layout_weight="1.0"
+                        android:background="?selectableItemBackground"
+                        android:elevation="@dimen/margin_4dp"
+                        android:focusable="true"
+                        android:foreground="?android:selectableItemBackground"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/TextView.TextBlack.XSmall.RobotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/margin_8dp"
+                            android:drawableRight="@drawable/ic_remove_eye_green_24dp"
+                            android:drawablePadding="@dimen/margin_16dp"
+                            android:text="All Images View"
+                            android:textAlignment="viewEnd"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/margin_16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
