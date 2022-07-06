@@ -38,16 +38,4 @@ public class VerifyOtpResponse implements Serializable {
         this.message = message;
     }
 
-    public ArrayList<FetchedUserSubInfo> getResponse() {
-        return response;
-    }
-
-    public void setResponse(ArrayList<FetchedUserSubInfo> response) {
-        this.response = response;
-    }
-
-    private ArrayList<FetchedUserSubInfo> response;
-
-
-
 }

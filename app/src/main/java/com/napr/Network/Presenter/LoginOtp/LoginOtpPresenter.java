@@ -9,7 +9,6 @@ import com.napr.Network.APIService;
 import com.napr.Network.Interactor.LoadListener;
 import com.napr.Network.Interactor.MainInteractor;
 import com.napr.Network.RetrofitClient;
-
 import org.jetbrains.annotations.NotNull;
 
 import retrofit2.Call;

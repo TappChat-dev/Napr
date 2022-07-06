@@ -1,8 +1,7 @@
-package com.Tappchat.Presenter.GetAllStatus
+package  com.napr.Network.Presenter.VerifyOnlyOtp
 
 import com.napr.Network.Interactor.LoadListener
 import com.napr.Network.Presenter.MainPresenter
-import com.napr.Network.Presenter.VerifyOnlyOtp.VerifyOtpOnlyPresenter
 import com.napr.Network.view.MainView
 
 
